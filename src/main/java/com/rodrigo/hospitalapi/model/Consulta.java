@@ -6,7 +6,7 @@ public class Consulta {
     private Medico medico;
     private String motivo;
 
-    public Consulta (int id, Paciente paciente, Medico medico, String motivo) {
+    public Consulta(int id, Paciente paciente, Medico medico, String motivo) {
         this.id = id;
         this.paciente = paciente;
         this.medico = medico;
@@ -14,12 +14,28 @@ public class Consulta {
 
     }
 
-    public int getId() {return id;}
-    public Paciente getPaciente() {return paciente;}
-    public Medico getMedico() {return medico;}
-    public String getMotivo() {return motivo;}
+    public int getId() {
+        return id;
+    }
 
-    public void setMotivo(String motivo) {this.motivo = motivo;}
-    public void setPaciente(Paciente paciente) {this.paciente = paciente;}
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public Medico getMedico() {
+        return medico;
+    }
+
+    public String getMotivo() {
+        return motivo;
+    }
+
+    public void setMotivo(String motivo) {
+        this.motivo = motivo;
+    }
+
+    public void setPaciente(Paciente paciente) {
+        this.paciente = paciente;
+    }
 
 }

@@ -5,10 +5,9 @@ public class TesteMedico {
     public static void main(String[] args) {
 
         Medico medico = new Medico(
-                1,
                 "John Frusciante",
                 "Cardiologista",
-                "6767");
+                "1234");
 
         medico.setEspecialidade("Neurologista");
 
@@ -17,4 +16,5 @@ public class TesteMedico {
         System.out.println(medico.getCrm());
         System.out.println(medico.getEspecialidade());
 
-    } }
+    }
+}

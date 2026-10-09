@@ -21,7 +21,7 @@ API REST para gerenciamento hospitalar (pacientes, médicos e consultas), desenv
 - [x] Endpoint de verificação (`GET /health`)
 - [x] Modelagem das classes `Paciente`, `Medico` e `Consulta`
 - [x] `Paciente` mapeado como entidade JPA (`@Entity`, `@Id`, `@GeneratedValue`)
-- [x] Conexão com PostgreSQL e criação automática da tabela `paciente`
+- [x] Conexão com PostgreSQL e criação automática das tabelas `paciente` e `medico`
 
 **Em desenvolvimento / planejado**
 - [ ] Entidades `Medico` e `Consulta` com relacionamentos (`@ManyToOne`)
