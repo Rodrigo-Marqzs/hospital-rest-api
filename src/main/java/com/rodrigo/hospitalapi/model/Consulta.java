@@ -1,20 +1,30 @@
 package com.rodrigo.hospitalapi.model;
 
+import jakarta.persistence.*;
+
+@Entity
 public class Consulta {
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @ManyToOne
     private Paciente paciente;
+    @ManyToOne
     private Medico medico;
     private String motivo;
 
-    public Consulta(int id, Paciente paciente, Medico medico, String motivo) {
-        this.id = id;
+    public Consulta(Paciente paciente, Medico medico, String motivo) {
         this.paciente = paciente;
         this.medico = medico;
         this.motivo = motivo;
 
     }
 
-    public int getId() {
+    protected Consulta(){
+
+    }
+
+    public Long getId() {
         return id;
     }
 
