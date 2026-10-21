@@ -23,6 +23,7 @@ API REST para gerenciamento hospitalar (pacientes, médicos e consultas), desenv
 - [x] `Paciente` mapeado como entidade JPA (`@Entity`, `@Id`, `@GeneratedValue`)
 - [x] Conexão com PostgreSQL e criação automática das tabelas `paciente`, `medico` e `´consulta`
 - [x] Entidades `Medico` e `Consulta` com relacionamentos (`@ManyToOne`)
+- [x] Validação manual do modelo no PostgreSQL (INSERT, SELECT E chave estrangeira)
 
 
 **Em desenvolvimento / planejado**
