@@ -24,6 +24,7 @@ API REST para gerenciamento hospitalar (pacientes, médicos e consultas), desenv
 - [x] Conexão com PostgreSQL e criação automática das tabelas `paciente`, `medico` e `´consulta`
 - [x] Entidades `Medico` e `Consulta` com relacionamentos (`@ManyToOne`)
 - [x] Validação manual do modelo no PostgreSQL (INSERT, SELECT E chave estrangeira)
+- [x] Validação manual do modelo no PostgreSQL ([testes-manuais.sql](docs/testes-manuais.sql))
 
 
 **Em desenvolvimento / planejado**
@@ -99,6 +100,7 @@ Este projeto é construído em sessões curtas de estudo, e cada commit segue o 
 - Modelagem relacional e boas práticas de chave primária
 - Segurança de APIs e proteção de dados sensíveis
 - Versionamento com Git e GitHub
+- ├── docs          # Testes manuais de SQL
 
 ## 👤 Autor
 
